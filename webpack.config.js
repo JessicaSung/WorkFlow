@@ -9,7 +9,8 @@ module.exports = {
 	resolve: {
 		root: __dirname,
 		alias: {
-			
+			Main: 'src/components/Main.js',
+			Welcome: 'src/components/Welcome.js'
 		},
 		extensions: ['', '.js', '.jsx']
 	},
