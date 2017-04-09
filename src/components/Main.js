@@ -47,7 +47,8 @@ export default class Main extends Component {
 					>
 						<Menu>
 							<MenuItem 
-								primaryText="Home" 
+								primaryText="Home"
+								containerElement={<Link to="/" />} 
 							/>
 							<MenuItem 
 								primaryText="Sign in" 
