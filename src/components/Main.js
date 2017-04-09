@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link, IndexLink } from 'react-router';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import AppBar from 'material-ui/AppBar';
@@ -45,9 +46,17 @@ export default class Main extends Component {
 						onRequestClose={this.handleRequestCloseMenu}
 					>
 						<Menu>
-							<MenuItem primaryText="Home" />
-							<MenuItem primaryText="Sign up" />
-							<MenuItem primaryText="Sign in" />
+							<MenuItem 
+								primaryText="Home"
+								containerElement={<Link to="/" />} 
+							/>
+							<MenuItem 
+								primaryText="Sign in" 
+							/>
+							<MenuItem 
+								primaryText="Sign up"
+								containerElement={<Link to="/signup" />}
+							/>
 						</Menu>
 					</Popover>
 
