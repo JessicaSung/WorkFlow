@@ -28,7 +28,7 @@ export default class SignUp extends Component {
     handleSubmit(event) {
         event.preventDefault();
 
-        axios.post('/api/user/save', {
+        axios.post('/api/user/register', {
             name: this.state.name,
             email: this.state.email,
             username: this.state.username,
