@@ -46,8 +46,8 @@ export default class Main extends Component {
 					>
 						<Menu>
 							<MenuItem primaryText="Home" />
-							<MenuItem primaryText="Sign up" />
 							<MenuItem primaryText="Sign in" />
+							<MenuItem primaryText="Sign up" />
 						</Menu>
 					</Popover>
 
