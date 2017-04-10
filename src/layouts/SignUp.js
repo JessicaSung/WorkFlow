@@ -59,6 +59,7 @@ export default class SignUp extends Component {
                                     <TextField
                                         id="email"
                                         floatingLabelText="Email address"
+                                        type="email"
                                         value={this.state.email}
                                         onChange={this.handleInputChange}
                                     />
@@ -73,6 +74,7 @@ export default class SignUp extends Component {
                                     <TextField
                                         id="password"
                                         floatingLabelText="Create a password"
+                                        type="password"
                                         value={this.state.password}
                                         onChange={this.handleInputChange}
                                     />
